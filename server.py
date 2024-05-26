@@ -17,6 +17,11 @@ class ServerSwitcher:
         self.lock = threading.Lock()
 
     def current_clients(self):
+        """Returns current customers and their count.
+
+        Returns:
+            dict: Dictionary with list of users and their count.
+        """
         return {"current_clients":self.clients,"current_clients_count":len(self.clients.values())}
 
     def handle_client(self, client_socket, client_address):
