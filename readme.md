@@ -59,9 +59,9 @@ Messages should be in the following format:
 IP:DEST@PORT:CONTENT
 ```
 
-**IP**: IP of the sender.
-**DEST@PORT**: IP address and port of the recipient. Use all@all to send the message to all clients.
-**CONTENT**: Content of the message.
+- **IP**: IP of the sender.
+- **DEST@PORT**: IP address and port of the recipient. Use all@all to send the message to all clients.
+- **CONTENT**: Content of the message.
 
 ## Licence
 ```
